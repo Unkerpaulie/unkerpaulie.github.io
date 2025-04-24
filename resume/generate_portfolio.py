@@ -6,7 +6,7 @@ from jinja2 import Environment, FileSystemLoader
 
 
 # Resume data source
-src = "default"
+src = "corey"
 
 # Load JSON data
 with Path(src, "portfolio.json").open(encoding="utf-8") as f:
